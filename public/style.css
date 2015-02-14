@@ -1,0 +1,67 @@
+/**************************************************/
+/******************* variables ********************/
+/**************************************************/
+/**************************************************/
+/***************** general styles *****************/
+/**************************************************/
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+body {
+  text-align: center;
+  font-family: "Gotham Rounded", Helvetica, sans-serif;
+  color: #938F8D;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px; }
+
+a {
+  color: #FF5F19;
+  text-decoration: none; }
+
+.logo {
+  width: 63px; }
+
+.animation-container {
+  margin: 70px auto 100px; }
+
+/**************************************************/
+/***************** layout specific ****************/
+/**************************************************/
+/* These are copied from the app's UI site */
+.video_user {
+  float: left;
+  position: relative;
+  width: 64px;
+  height: 69px;
+  color: #938f8d;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 4px 10px 4px; }
+
+.video_user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+
+/* Presentational specific: don't copy these on production! */
+.users_row {
+  width: 300px;
+  height: auto;
+  margin: 50px auto;
+  text-align: center; }
+
+.video_user {
+  float: none;
+  display: inline-block; }
+
+/* A saner way to style the name text. This will need to be incorporated in production stylesheets. */
+.caller_name1 {
+  width: 100%;
+  margin-top: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #F9F9F9;
+  text-shadow: 0 0 2px rgba(20, 20, 20, 0.8); }

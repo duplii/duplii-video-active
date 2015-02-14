@@ -1,0 +1,42 @@
+/**************************************************/
+/*************** animation specific ***************/
+/**************************************************/
+
+.video_user::before,
+.video_user::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin: 0 0 0 -25px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	opacity: 0;
+	pointer-events: none;
+	box-shadow: 0 0 0 2px rgba(200,200,200,0.6);
+}
+
+.video_user.active-speaker::before,
+.video_user.active-speaker::after {
+	animation: video-speaking 1.1s ease-out infinite;
+	animation-fill-mode: both;
+}
+
+.video_user.active-speaker::after {
+	animation-delay: 0.7s;
+}
+
+@keyframes video-speaking {
+	0% {
+		transform: scale(0.8);
+		opacity: 0;
+	}
+	40%, 60% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1.4);
+		opacity: 0;
+	}
+}
