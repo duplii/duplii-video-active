@@ -8,7 +8,7 @@ I also introduced saner styles for name labels that accustom for different backg
 
 ## Live demo
 
-A live demo of this project can be found [here](http://duplii.github.io/duplii-video-call-active "Live demo").
+A live demo of this project can be found [here](http://duplii.github.io/duplii-video-active/ "Live demo").
 
 <img src="http://duplii.github.io/duplii-video-active/public/screenshot.png" alt="Screenshot" width="127" height="127" />
 
