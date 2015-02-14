@@ -14,13 +14,13 @@
   pointer-events: none;
   box-shadow: 0 0 0 2px rgba(200, 200, 200, 0.6); }
 
-.video_user.active::before, .video_user.active::after {
+.video_user.active-speaker::before, .video_user.active-speaker::after {
   -webkit-animation: video-speaking 1.1s ease-out infinite;
           animation: video-speaking 1.1s ease-out infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both; }
 
-.video_user.active::after {
+.video_user.active-speaker::after {
   -webkit-animation-delay: 0.7s;
           animation-delay: 0.7s; }
 
