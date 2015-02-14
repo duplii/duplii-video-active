@@ -1,0 +1,26 @@
+/**************************************************/
+/******************* variables ********************/
+/**************************************************/
+/**************************************************/
+/***************** general styles *****************/
+/**************************************************/
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+body {
+  text-align: center;
+  font-family: "Gotham Rounded", Helvetica, sans-serif;
+  color: #938F8D;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px; }
+
+a {
+  color: #FF5F19;
+  text-decoration: none; }
+
+.logo {
+  width: 63px; }
+
+.animation-container {
+  margin: 70px auto 100px; }
