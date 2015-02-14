@@ -1,14 +1,16 @@
 # Duplii Video Active Animation
 
-This is the template we'll use for quickly prototyping animations and special effects.
+This is the animation that will highlight the current speaking user during videocalls and possibly audiocalls. We simply need to assign the class `.active-speaker` to the `div.video_user` element that contains the current active speaker's thumbnail.
 
-I am also including the `config.codekit` file so that everyone using Codekit will be able to get started immediately.
+I also introduced saner styles for name labels that accustom for different background colors, different name lengths and have a much clearer and leaner syntax. This will need to be carried over to the production styles. Find them in style.scss/.css.
+
+`config.codekit` file included so that everyone using Codekit will be able to get started immediately.
 
 ## Live demo
 
-A live demo of this project can be found at [Insert Link Here](http://duplii.com/ "Duplii | We Make Duplication Happen").
+A live demo of this project can be found [here](http://duplii.github.io/duplii-video-call-active "Live demo").
 
-Include an optional image to preview the project.
+<img src="http://duplii.github.io/duplii-video-active/public/screenshot.png" alt="Screenshot" width="127" height="127" />
 
 ## MIT License
 
